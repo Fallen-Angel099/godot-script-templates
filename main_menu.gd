@@ -20,7 +20,7 @@ func connect_signals() -> void:
 
 
 func start_button_pressed() -> void:
-	get_tree().change_scene_to_file("res://main/bootcamp/boot_camp.tscn")
+	get_tree().change_scene_to_file("")
 
 func settings_button_pressed() -> void:
 	general.hide()
